@@ -1,0 +1,15 @@
+{
+  "name": "plc-data-buffer-sizing",
+  "version": "1.1.3",
+  "private": true,
+  "description": "Calculate the memory a store-and-forward buffer needs from tag count, sample rate, record size and outage duration, and how many hours of outage existing memory covers.",
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://endustriyel.eretek.com/en/tools/plc-data-buffer-sizing",
+  "scripts": {
+    "start": "node scripts/serve.js",
+    "test": "node test/run.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
